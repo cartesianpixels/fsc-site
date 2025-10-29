@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Zineb/Desktop/XFS/fsc-site/src/app/layout.tsx"],"sourcesContent":["import \"./globals.css\"; // 👈 must be here (relative to src/app)\r\nimport type { Metadata } from \"next\";\r\n\r\nexport const metadata: Metadata = {\r\n  title: \"Flight Sim Central\",\r\n  description: \"IVAO Partner VA\",\r\n};\r\n\r\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <html lang=\"en\">\r\n      {/* put global Tailwind classes on body if you want a base bg/text */}\r\n      <body className=\"min-h-screen bg-slate-950 text-slate-100\">{children}</body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;AAGO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,+QAAC;QAAK,MAAK;kBAET,cAAA,+QAAC;YAAK,WAAU;sBAA4C;;;;;;;;;;;AAGlE","debugId":null}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Zineb/Desktop/XFS/fsc-site/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,iJACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
